@@ -1,0 +1,9 @@
+{
+  "stepDefinitions": ["cypress/e2e/**/*.{js,ts}"],
+  "html": {
+    "enabled": true,
+    "output": "reports/report.html"
+  },
+  "filterSepcs": true,
+  "omitFiltered": true
+}
